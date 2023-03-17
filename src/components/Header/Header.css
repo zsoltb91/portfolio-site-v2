@@ -1,0 +1,155 @@
+.headercont {
+  margin: auto;
+  color: var(--alt-font-color);
+  display: flex;
+  width: 70%;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--def-font);
+}
+
+.navlinks a:hover {
+  opacity: 0.5;
+}
+
+.xbtn_hide {
+  display: none;
+}
+
+.barbtn_hide {
+  display: none;
+}
+
+.headercont_exp {
+  margin: auto;
+  color: var(--alt-font-color);
+  display: flex;
+  width: 70%;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--def-font);
+}
+
+.navigation_changed {
+  display: flex;
+  margin-top: 0;
+  white-space: nowrap;
+}
+
+.headercont .nav-btn {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  display: none;
+}
+
+.imgs {
+  width: 1.5rem;
+}
+
+.imgs:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.iconbar {
+  display: none;
+}
+
+.navigation {
+  display: flex;
+  margin-top: 0.3rem;
+  white-space: nowrap;
+}
+
+.lastimg {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+li {
+  margin: 0 4vw;
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 704px) {
+  .xbtn_hide {
+    display: none;
+  }
+
+  .barbtn_hide {
+    display: none;
+  }
+
+  .headercont_exp .nav-btn {
+    cursor: pointer;
+    background: black;
+    border: none;
+    outline: none;
+    color: white;
+    display: block;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .navigation_changed {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 30vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: black;
+    transition: 0.3s;
+    transform: translateY(0);
+  }
+
+  .iconbar {
+    display: block;
+  }
+
+  #menubtn {
+    font-size: 1.4rem;
+    position: absolute;
+    top: 1.3rem;
+    right: 15%;
+  }
+
+  #xbtn {
+    display: none;
+  }
+
+  .headercont .nav-btn {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 1rem;
+  }
+
+  .navigation_changed li {
+    display: block;
+    text-align: center;
+    margin: 1rem auto;
+  }
+
+  .headercont_exp {
+    margin: 30vh auto auto auto;
+    color: var(--alt-font-color);
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-between;
+    font-family: var(--def-font);
+  }
+}

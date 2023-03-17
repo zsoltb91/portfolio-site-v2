@@ -1,0 +1,83 @@
+.card-noclick {
+  display: flex;
+  width: 7rem;
+  height: 7rem;
+  background-color: var(--card-bg-color);
+  border-radius: 10px;
+  border: var(--card-border);
+  pointer-events: none;
+  cursor: none;
+}
+
+.disabled {
+  display: flex;
+  width: 7rem;
+  height: 7rem;
+  background-color: var(--card-bg-color);
+  border-radius: 10px;
+  border: var(--card-border);
+  pointer-events: none;
+  cursor: none;
+}
+
+.card {
+  display: flex;
+  width: 7rem;
+  height: 7rem;
+  background-color: var(--card-bg-color);
+  border-radius: 10px;
+  border: var(--card-border);
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 1px 1px #000000;
+  transform: scale(1.02);
+  background-color: #464646;
+}
+
+.img {
+  width: 5rem;
+  height: 5rem;
+  margin: auto;
+}
+
+#id1,
+#id2,
+#id3,
+#id4,
+#id5,
+#id6,
+#id7,
+#id8,
+#id9,
+#id10,
+#id11,
+#id12,
+#id13,
+#id14,
+#id15,
+#id16 {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+#id1h,
+#id2h,
+#id3h,
+#id4h,
+#id5h,
+#id6h,
+#id7h,
+#id8h,
+#id9h,
+#id10h,
+#id11h,
+#id12h,
+#id13h,
+#id14h,
+#id15h,
+#id16h {
+  opacity: 0;
+  transition: 0.5s;
+}

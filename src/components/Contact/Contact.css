@@ -1,0 +1,54 @@
+.contactcont {
+  display: flex;
+  margin: 10rem auto;
+  flex-direction: column;
+  width: 70%;
+  align-items: center;
+}
+
+label {
+  display: block;
+  margin: 1rem auto;
+  align-items: center;
+  text-align: center;
+}
+
+input {
+  width: 12rem;
+  display: block;
+  margin: auto;
+  justify-items: center;
+}
+
+textarea {
+  width: 25rem;
+  height: 15rem;
+  color: black;
+}
+
+form {
+  margin: auto;
+  align-content: center;
+  align-items: center;
+}
+
+.contactcont h2 {
+  margin: 3rem auto;
+}
+
+.inbtn {
+  margin: 2rem auto 2rem auto;
+  font-family: var(--def-font);
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  background-color: #3e52ff;
+  width: 5rem;
+  color: var(--alt-font-color);
+}
+
+.inbtn:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+  cursor: pointer;
+}

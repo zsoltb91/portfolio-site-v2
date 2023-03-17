@@ -1,0 +1,18 @@
+.introcont {
+  margin: 10rem auto auto auto;
+  color: var(--alt-font-color);
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  align-items: center;
+  text-align: center;
+  font-family: var(--def-font);
+}
+
+h4 {
+  font-weight: 300;
+}
+
+.welcome {
+  margin-bottom: 2rem;
+}

@@ -1,0 +1,8 @@
+.footer {
+  text-align: center;
+  position: fixed;
+  bottom: 5px;
+  width: 100%;
+  margin-top: 3rem;
+  font-size: var(--small-font-size);
+}
